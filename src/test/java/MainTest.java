@@ -10,6 +10,7 @@ public class MainTest {
         assertEquals(3, main.divisionWithRemainder(8, 5));
     }
 
+
         @Test // původně nefunkční test, opravený tak, aby fungoval
         public void testDivWithRemError() {
                 Main main = new Main();
