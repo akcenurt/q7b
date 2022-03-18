@@ -13,6 +13,6 @@ public class MainTest {
         @Test
         public void testDivWithRemError() {
                 Main main = new Main();
-                assertEquals(1, main.divisionWithRemainder(9, 3));
+                assertEquals(0, main.divisionWithRemainder(9, 3));
         }
 }
